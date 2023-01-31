@@ -1,0 +1,98 @@
+StackPane {
+    -fx-background-color: #4d4d4d;
+    -fx-font-weight: bold;
+}
+
+TopBar {
+    -fx-alignment: center;
+    -fx-min-height: 30px;
+    -fx-pref-width: 100%;
+    -fx-spacing: 10px;
+}
+
+TopBar > Label {
+    -fx-padding: 5px;
+    -fx-background-color: GRAY;
+    -fx-background-radius: 3px;
+}
+
+TopBar > Button {
+    -fx-background-color: #3d3d3d, #7d7d3e, #99993d;
+    -fx-background-radius: 14px, 13px, 10px;
+    -fx-background-insets: 0px, 1px, 4px;
+    -fx-pref-height: 28px;
+    -fx-pref-width: 28px;
+}
+
+TopBar > CheckBox .mark {
+    -fx-background-color: transparent;
+}
+
+TopBar > CheckBox .box {
+    -fx-background-color: #3d3d3d, #695d5d, #9b6d6d;
+    -fx-background-radius: 14px, 13px, 10px;
+    -fx-background-insets: 0px, 1px, 4px;
+    -fx-pref-height: 28px;
+    -fx-pref-width: 28px;
+}
+
+TopBar > CheckBox:selected .box {
+    -fx-background-color: #3d3d3d, #7d7d5d, #99996d;
+}
+
+PlayingField {
+    -fx-alignment: center;
+}
+
+PlayingField > HBox {
+    -fx-alignment: center;
+}
+
+Field {
+    -fx-background-color: #5d5d5d, #6d6d6d;
+    -fx-background-insets: 3px, 8px;
+    -fx-background-radius: 5px, 8px;
+    -fx-min-height: 50px;
+    -fx-min-width: 50px;
+}
+
+Field:hover {
+    -fx-background-color: #666666, #7a7a7a;
+}
+
+Field:pressed {
+    -fx-background-insets: 3px, 7px;
+    -fx-background-radius: 5px, 9px;
+}
+
+.green {
+    -fx-background-color: #5d7d5d, #6d9b6d;
+}
+
+.green:hover {
+    -fx-background-color: #658765, #76a676;
+}
+
+.greenFlat {
+    -fx-background-color: #5d7d5d, #678a67;
+}
+
+.greenFlat:hover {
+    -fx-background-color: #658765, #6d916d;
+}
+
+.red {
+    -fx-background-color: #695d5d, #9b6d6d;
+}
+
+.red:hover {
+    -fx-background-color: #736666, #a67676;
+}
+
+.yellow {
+    -fx-background-color: #7d7d5d, #99996d;
+}
+
+.yellow:hover {
+    -fx-background-color: #878765, #a6a677;
+}
